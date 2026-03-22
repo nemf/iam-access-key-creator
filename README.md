@@ -4,7 +4,6 @@
 
 - AWS アカウント（マネジメントコンソールにログインできること）
 - VS Code Server（ブラウザで開ける状態）
-- Amazon Q Developer 拡張機能がインストール済み
 
 ---
 
@@ -45,7 +44,7 @@ chmod +x script.sh
 | ステップ | 内容 |
 |---------|------|
 | 1 | IAM ユーザー `bedrock-agent-dev` を作成 |
-| 2 | カスタムポリシー `AIAgentWorkshopPolicy` を作成（Allow + Deny） |
+| 2 | カスタムポリシー `AIAgentWorkshopPolicy` を作成 |
 | 3 | ポリシーをユーザーにアタッチ |
 | 4 | アクセスキーを発行 |
 
@@ -153,6 +152,8 @@ curl -o .amazonq/mcp.json https://raw.githubusercontent.com/nemf/ai-agent-worksh
 | Bedrock AgentCore | ローカル | AgentCore ドキュメント検索 + クラウドブラウザツール |
 | AWS IaC | ローカル | CDK/CloudFormation テンプレート検証・ベストプラクティス |
 
+> 💡 こちらは、今回のワークショップで有用であろうもののサンプルとなります。 [Open source MCP servers for AWS](https://github.com/awslabs/mcp) にも、いろいろAWSが提供しているMCPサーバがありますので、ご参考になり、追加等ご自由に
+
 ### 反映
 
 VS Code のコマンドパレット（`Ctrl+Shift+P`）→ 「**Reload Window**」で Q Developer を再起動。
@@ -180,7 +181,7 @@ curl -o amazonq.md https://raw.githubusercontent.com/nemf/ai-agent-workshop/main
 - **モデル** — Claude Opus 4.6（`us.anthropic.claude-opus-4-6-v1`）
 
 > 💡 `amazonq.md` はプロジェクトのルールブック。Q Developer がこのファイルを読んで、プロジェクトの文脈を理解した上でコードを書いてくれます。
-
+> こちらの内容はサンプルですので、適宜編集してご利用ください。
 ---
 
 ## チェックリスト
