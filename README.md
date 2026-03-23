@@ -69,7 +69,7 @@ aws configure --profile bedrock-dev
 |------|-----------|
 | AWS Access Key ID | CloudShell で取得した `AKIA...` |
 | AWS Secret Access Key | CloudShell で取得したシークレットキー |
-| Default region name | `us-west-2` |
+| Default region name | `us-east-1` |
 | Default output format | `json` |
 
 5. プロファイルを有効化
