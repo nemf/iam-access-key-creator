@@ -99,6 +99,10 @@ aws sts get-caller-identity
 
 Amazon Q Developer に 3 つの MCP サーバーを接続し、開発効率を上げます。
 
+### 前提
+
+こちらの手順を実施する前に、ワークショップ説明資料のAmazonQの認証設定を完了させておいてください。
+
 ### 手順
 
 プロジェクトディレクトリ直下に `.amazonq/mcp.json` を作成します。
