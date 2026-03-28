@@ -99,12 +99,6 @@ aws sts get-caller-identity
 
 Amazon Q Developer に 3 つの MCP サーバーを接続し、開発効率を上げます。
 
-### 前提：uv のインストール
-
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
 ### 手順
 
 プロジェクトディレクトリ直下に `.amazonq/mcp.json` を作成します。
