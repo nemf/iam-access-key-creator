@@ -188,6 +188,5 @@ curl -o amazonq.md https://raw.githubusercontent.com/nemf/ai-agent-workshop/main
 - [ ] `aws sts get-caller-identity` で `bedrock-agent-dev` が表示される
 - [ ] `.amazonq/mcp.json` がプロジェクト直下にある
 - [ ] `amazonq.md` がプロジェクト直下にある
-- [ ] Q Developer のチャットで「AgentCore のドキュメントを検索して」と聞いて応答がある
 
 すべて ✓ なら準備完了です。ワークショップを始めましょう！
